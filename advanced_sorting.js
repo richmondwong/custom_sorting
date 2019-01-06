@@ -1,4 +1,3 @@
-
 var students = [
  { id: 1, name: "bruce",  age: 40 },
  { id: 2, name: "zoidberg", age: 22 },
@@ -30,7 +29,5 @@ else if (nameA > nameB){
   return sortAge(a,b)
  }
 }
-​
-​
 ​
 console.log(students.sort(sortName))
