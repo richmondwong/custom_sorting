@@ -12,14 +12,13 @@ var sortAge=function(a,b){
 var sortName = function(a,b){
  var nameA=a.name;
  var nameB=b.name;
- console.log(nameA,nameB)
 ​
  if (nameA < nameB){
   console.log('nameA comes before nameB')
   return -1;
 }
-else if (nameA > nameB){
- console.log('nameB comes before nameA')
+ else if (nameA > nameB){
+  console.log('nameB comes before nameA')
   return 1;
  }
  else {
