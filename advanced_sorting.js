@@ -5,8 +5,6 @@ var students = [
  { id: 4, name: "alex",   age: 30 }
 ];
 ​
-​
-​
 var sortAge=function(a,b){
  return b.age -a.age;
 }
